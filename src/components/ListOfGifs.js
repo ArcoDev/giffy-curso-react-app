@@ -7,7 +7,7 @@ export default function ListOfGifs({keyword}) {
      useEffect(function () {
         getGifs({ keyword })
         .then(gifs => setGifs(gifs));
-    }, [keyword])
+    }, [])
     return gifs.map(({id, title, url}) =>
         <Gif 
             id={id}
