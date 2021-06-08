@@ -1,0 +1,9 @@
+//scripts del package.josn
+"start": "react-scripts start", -> Nos sirve para ejecutar la aplicación
+"build": "react-scripts build", -> Nos genera los archivos estaticos para produccion
+"test": "react-scripts test", -> Nos sirve para testar el proyecto
+"eject": "react-scripts eject" -> Scar la configuracion interna de react-app, para modificarlo, pero no es recomedable
+
+public -> es la carpteta que se manda a produccion de
+index.html -> es donde renderiza la aplicacion de
+src -> carpteta donde se guardan los componetes que construiran la aplicacion
